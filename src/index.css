@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #F9F7F2;
+    --surface: #FFFFFF;
+    --text: #1A1A1A;
+    --muted: #5F6368;
+    --accent: #1A2B49;
+    --accent-hover: #2C426B;
+    --border: #E2DFD8;
+  }
+
+  body {
+    background-color: #F9F7F2;
+    color: #1A1A1A;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #1A1A1A;
+  }
+
+  h1 {
+    line-height: 1.1;
+  }
+
+  h2 {
+    line-height: 1.25;
+  }
+
+  h3 {
+    line-height: 1.3;
+  }
+}
+
+/* Custom scrollbar and utilities */
+.font-heading {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Tabular figures for numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Safe area padding for mobile bottom bar */
+.pb-safe-bar {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom, 16px));
+}

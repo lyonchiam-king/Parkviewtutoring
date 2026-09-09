@@ -1,0 +1,6 @@
+{
+  "name": "Park View Tutoring",
+  "description": "GCSE Maths and Physics tutoring in Richmond TW9, London. Supportive tutoring by Charlie helping students secure significant grade improvements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
